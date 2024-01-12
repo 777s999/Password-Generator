@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: 0;
   font-family: sans-serif;
+  user-select: none;
 }
 :root {
   --main-color: rgb(48, 48, 248);
@@ -26,6 +27,7 @@ body {
 }
 
 .container input {
+  user-select: none;
   padding: 20px;
   height: 50px;
   width: 400px;
